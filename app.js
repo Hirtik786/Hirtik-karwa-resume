@@ -45,8 +45,8 @@ function contact() {
             To: 'kumarhirtik3@gmail.com',
             From: "kumarhirtik3@gmail.com",
             Subject: "Contact Form Enquiry",
-            Body: "Name :- " + name1.value +
-                "Email :- " + email.value +
+            Body: "Name :- " + name1.value + " " +
+                "Email :- " + email.value + " " +
                 "Message :- " + message.value
 
         }).then(
