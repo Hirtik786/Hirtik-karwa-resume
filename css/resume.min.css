@@ -159,3 +159,49 @@ a:focus,
 a:hover {
     color: #824027
 }
+
+
+.form {
+    width: 350px;
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #ae1818;
+    color: #ae1818;
+}
+
+.form:focus {
+    background-color: #ae1818;
+    color: white;
+    outline: 1px solid white;
+}
+
+.form::placeholder {
+    color: #ae1818;
+}
+
+.hello{
+    border: 1px solid green ;
+}
+
+#button {
+    width: 200px;
+    margin: 10px 0px 10px 0px;
+    background-color: #ae1818;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#button:hover {
+    color: #ae1818;
+    border: 2px solid #ae1818;
+    background-color: white;
+}
+
+#button:focus {
+    outline: 1px solid white;
+}
